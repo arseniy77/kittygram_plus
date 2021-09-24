@@ -7,6 +7,8 @@ from .models import Cat, Owner
 from .serializers import CatSerializer, OwnerSerializer, CatListSerializer
 
 
+
+
 class CatViewSet(viewsets.ModelViewSet):
     queryset = Cat.objects.all()
     serializer_class = CatSerializer

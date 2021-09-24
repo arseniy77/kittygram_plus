@@ -1,6 +1,7 @@
 import datetime as dt
 import webcolors
 from rest_framework import serializers
+from djoser.serializers import UserSerializer
 
 from .models import Cat, Owner, Achievement, AchievementCat, CHOICES
 
